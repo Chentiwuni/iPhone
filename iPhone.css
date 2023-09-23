@@ -1,0 +1,166 @@
+body {
+    background-image: url("images/background2.jpg");
+    background-size: cover;
+}
+/*This is the main div that contains everything of the page*/
+.main {
+    width: 360px;
+    height: 680px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/*This is the div that contains the everything of the page excluding the frame*/
+.mainTwo {
+    width: 300px;
+    height: 620px;
+    position: absolute;
+    top: 45px;
+}
+
+/*This are three divs that make up the above div: top, middle,bottom*/
+.top {
+    width: 100%;
+    height: 15%;
+    position: relative;
+    z-index: 4;
+}
+
+/*divs inside "top": profile-pic, user-name*/
+.profile-pic {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic {
+    width: 60px;
+    height: 60px;
+}
+
+
+.user-name {
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    right: 10px;
+}
+
+.middle {
+    width: 100%;
+    height: 75%;
+}
+
+/*Chat classes in "middle"*/
+.chatOne {
+    width:120px;
+}
+ 
+.chatTwo {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px 15px 0px 15px;
+}
+.chatThree {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px 15px 15px 0px;
+}
+.chatFour {
+    width: 150px;
+    height: 25px;
+    border-radius: 7px 7px 0px 7px;
+}
+.chatFive {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px 15px 0px 15px;
+}
+.chatSix {
+    width: 200px;
+    height: 75px;
+    border-radius: 15px 15px 15px 0px;
+}
+
+.bottom {
+    width: 100%;
+    height: 10%;
+    position: relative;
+
+}
+
+/*divs inside bottom*/
+.camera {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.emoji {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 40px;
+    top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.textbox {
+    width: 170px;
+    height: 35px;
+    position: absolute;
+    right: 45px;
+    top: 5px;
+}
+
+.microphone {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.scrow {
+    width: 50px;
+    height: 100px;
+}
+
+/*alteration divs at the top of the frame*/
+.first {
+    width: 100px;
+    height: 27px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    border-radius: 35px 0px 0px 0px;
+    z-index: 1;
+}
+.second {
+    width: 115px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    border-radius: 0px 0px 15px 15px;
+    z-index: 3;
+}
+.third {
+    width: 100px;
+    height: 27px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    border-radius: 0px 35px 0px 0px;
+    z-index: 2;
+}
